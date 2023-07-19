@@ -1,0 +1,120 @@
+body{
+   background-image: url("https://shorturl.at/aiOP8"); 
+   font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+    font-size: 30px;
+    color: black;
+}
+
+#center{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+.box{
+    width: 500px;
+    height: 700px;
+    border: 5px;
+    padding: 5px;
+    border-radius: 25px;    
+    text-align: center;
+    background-image: linear-gradient(#93A5CF, #e4efae);
+}
+
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space space-between;
+}
+
+.search input{
+    border: 0;
+    outline: 0;
+    background-color: aliceblue;
+    border-radius: 25px;
+    width: 400px;
+    height: 30px;
+    padding: 15px 20px;
+    margin-right: 10px;
+}
+
+.search button{
+    border: 0;
+    outline: 0;
+    background-color: aliceblue;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}
+
+.search button img{
+    width: 25px;
+}
+
+.weather-icon{
+    width: 170px;
+    margin-top: 15px;
+}
+
+.weather h1{
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.weather h2{
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    margin-top: 70px;
+}
+
+.coloums{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.coloums img{
+    width: 80px;
+    margin-right: 15px;
+}
+
+.humidity, .wind{
+    font-size: 28px;
+    margin-top: -10px;
+}
+
+.bottom-text{
+    margin-top: 50px;
+    margin-left: -50px;
+}
+
+.bottom-text-wind{
+    margin-top: 50px;
+    margin-left: -80px;
+}
+
+.weather{
+    display: none;
+}
+
+.error{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    color: aliceblue;
+    margin-top: 10px;
+    display: none;
+}
